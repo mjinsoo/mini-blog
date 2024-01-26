@@ -1,0 +1,10 @@
+<script>
+
+  async function get() {
+    const data = await fetch('http://ggoreb.com/api/mini-blog.jsp');
+    const result = await data.json();
+    console.log(result);
+  }
+
+  get();
+</script>
